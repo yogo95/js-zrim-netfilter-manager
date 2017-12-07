@@ -1,0 +1,24 @@
+{
+  "name": "js-zrim-netfilter-manager",
+  "version": "0.0.1",
+  "description": "Application to manage my personnal firewall",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yogo95/js-zrim-netfilter-manager.git"
+  },
+  "keywords": [
+    "netfilter",
+    "firewall",
+    "manager"
+  ],
+  "author": "NEGRO, Eric <yogo95@zrim-everything.eu>",
+  "license": "CECILL-2.1",
+  "bugs": {
+    "url": "https://github.com/yogo95/js-zrim-netfilter-manager/issues"
+  },
+  "homepage": "https://github.com/yogo95/js-zrim-netfilter-manager#readme"
+}
