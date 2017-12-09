@@ -4,7 +4,9 @@
   "description": "Application to manage my personnal firewall",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0;"
+    "test": "npm run unitTest",
+    "unitTest": "node test/unit/index.js",
+    "codeStyleValidation": "eslint lib/** api/** test/** *.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/yogo95/js-zrim-netfilter-manager/issues"
   },
-  "homepage": "https://github.com/yogo95/js-zrim-netfilter-manager#readme"
+  "homepage": "https://github.com/yogo95/js-zrim-netfilter-manager#readme",
+  "dependencies": {
+    "argparse": "1.0.9",
+    "fs-extra": "4.0.3",
+    "joi": "13.0.2",
+    "js-yaml": "3.10.0",
+    "js-zrim-core": "0.2.3",
+    "js-zrim-errors": "0.2.1",
+    "lodash": "4.17.4",
+    "uuid": "3.1.0"
+  }
 }
