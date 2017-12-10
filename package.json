@@ -8,6 +8,9 @@
     "unitTest": "node test/unit/index.js",
     "codeStyleValidation": "eslint lib/** api/** test/** *.js"
   },
+  "bin": {
+    "ze-netfilter-cmd": "./lib/bin/generic-main.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yogo95/js-zrim-netfilter-manager.git"
